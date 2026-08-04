@@ -1,1 +1,79 @@
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100vw;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #CC0000; /* Vermelho principal */
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+
+main {
+    background-color: #FFFFFF;
+    color: #333333;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    border: 2px solid #CC0000; /* Borda vermelha */
+    background-color: #E8F5E9; /* Verde claro de fundo secundário */
+    border-radius: 8px;
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+    flex: 1 1 300px;
+    max-width: 350px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.artigo-autor {
+    font-weight: bold;
+    color: #CC0000;
+    margin: 8px 0;
+}
+
+.artigo-fonte {
+    font-size: 0.85em;
+    color: #666666;
+    margin-top: 8px;
+}
+
+button {
+    background-color: #A5D6A7; /* Verde claro mais acentuado */
+    border: 1px solid #2E7D32;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 8px 4px 0 4px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #81C784;
+}
